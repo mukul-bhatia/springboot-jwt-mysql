@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: JWT
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: Mukul
+Implementation-Vendor-Id: com.mukul
+Build-Jdk: 1.8.0_201
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-bo
+ ot-starter-parent/JWT
+Created-By: Maven Integration for Eclipse
+
