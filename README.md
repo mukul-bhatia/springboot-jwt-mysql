@@ -39,19 +39,31 @@ Once it starts running by showing "Completed initialization", open "Postman" to 
 Step 6:
 This jar contains 2 API's. One is to generate the JWT token and the other is to verify secured access through token.
 a) To generate the token :
+
 URL : http://localhost:8080/authenticate
+
 Method: POST
+
 Body -> raw -> JSON
+
 {
+
 	"username":"strong",
+	
 	"password":"password"
+	
 }
+
 Click Send and it returns a jwt token.
 
 b) Copy the token and make a new request :
+
 URL : http://localhost:8080/hello
+
 Method: GET
+
 Headers -> Authorization : Bearer COPIED_TOKEN
+
 Click Send and you are able to access the "/hello" API.
 
 c) Now in the "Headers", uncheck the "Authorization" (this means that you are trying to access the "/hello" API without the token). 
