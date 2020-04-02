@@ -21,6 +21,7 @@ create table role(
 
 Step 2: Now insert the data into the table.
 Note: Here "Hashing" is done to encode the password. So we are using the encoded value in the password field. The password is "password".
+
 INSERT INTO `role` (`username`,`password`,`role`) VALUES ('strong','$2a$10$5e3dB36HeRcozRgp8xQfw.tfD3Qsut8xu/NT9g/DSpVKg9Kzuitrq','ROLE_USER');
 
 Step 3: Now download the project and import it on your IDE.
